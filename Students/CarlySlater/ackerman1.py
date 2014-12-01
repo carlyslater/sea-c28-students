@@ -7,7 +7,7 @@ def ackattack(m, n):
 """Return the result of ackermans function adjusting for inputs of 0."""
 
 if __name__ == "__main__": 
-    assert ackattack(2, 3) == 11
+    assert ackattack(2, 3) == 9
     assert ackattack(0,0) == 1
     assert ackattack(1,0) == 2
     assert ackattack(2,0) == 3
@@ -30,6 +30,3 @@ if __name__ == "__main__":
     assert ackattack(3,4) == 125
     print "All tests passed"
 
-
-
-print a(1,1)
