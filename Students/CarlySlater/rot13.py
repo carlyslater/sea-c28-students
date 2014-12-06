@@ -1,0 +1,1 @@
+rot13 = str.translate(table[abcdefghijklmABCDEFGHIJKLMnopqrstuvwxyzNOPQRSTUVWXYZ, nopqrstuvwxyzNOPQRSTUVWXYZabcdefghijklmABCDEFGHIJKLM])
